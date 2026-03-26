@@ -5,32 +5,32 @@ import { Award, ExternalLink, Calendar, CheckCircle, Ship, Star } from 'lucide-r
 const Certificates = () => {
   const certs = [
     {
-      title: "Fullstack Web Development",
-      issuer: "Udemy (Dr. Angela Yu)",
-      date: "2024",
+      title: "ChatGPT Mahe Easy: AI Essentials For Beginners",
+      issuer: "Udemy",
+      date: "2025",
       icon: <Award className="text-primary" size={24} />,
-      status: "Verified"
+      <a href= "https://drive.google.com/file/d/1f1M0HR1Su_SkZETr_in7-9sKctnDJXLI/view?usp=sharing" >status: "Verified"</a>
     },
     {
-      title: "Data Structures & Algorithms",
+      title: "Mastering JAVA for Application Development",
       issuer: "LPU",
-      date: "2024",
+      date: "2025",
       icon: <Star className="text-primary" size={24} />,
-      status: "Verified"
+      <a href= "https://drive.google.com/file/d/1hEAVkWPr6uizFDtZ4t6-7NkBpU52bb1v/view?usp=sharing" >status: "Verified"</a>
     },
     {
       title: "MongoDB Professional",
       issuer: "MongoDB University",
       date: "2024",
       icon: <CheckCircle className="text-primary" size={24} />,
-      status: "Verified"
+      <a href= "https://drive.google.com/file/d/10tozF34Aj6JbeGbNNYoFqSZczsu_QVki/view?usp=sharing" >status: "Verified"</a>
     },
     {
-      title: "NPTEL - Python for Data Science",
+      title: "NPTEL - Software Testing",
       issuer: "IIT Madras / NPTEL",
       date: "2024",
       icon: <Ship className="text-primary" size={24} />,
-      status: "Verified"
+      <a href= "https://drive.google.com/file/d/11LtjFZPFrqYG0K-mcEVtoDeACu0oCOVU/view?usp=sharing" >status: "Verified"</a>
     }
   ];
 
