@@ -32,9 +32,9 @@ const CustomCursor = () => {
   }, []);
 
   return (
-    <>
+    <div className="fixed inset-0 pointer-events-none z-[9999] hidden md:block" style={{ position: 'fixed', top: 0, left: 0 }}>
       <motion.div
-        className="fixed top-0 left-0 w-8 h-8 rounded-full border border-primary pointer-events-none z-[9999] hidden md:block"
+        className="absolute top-0 left-0 w-8 h-8 rounded-full border border-primary pointer-events-none"
         animate={{
           x: position.x - 16,
           y: position.y - 16,
@@ -44,14 +44,14 @@ const CustomCursor = () => {
         transition={{ type: 'spring', damping: 20, stiffness: 250, mass: 0.5 }}
       />
       <motion.div
-        className="fixed top-0 left-0 w-1 h-1 bg-primary rounded-full pointer-events-none z-[9999] hidden md:block"
+        className="absolute top-0 left-0 w-1 h-1 bg-primary rounded-full pointer-events-none"
         animate={{
           x: position.x - 2,
           y: position.y - 2
         }}
         transition={{ type: 'spring', damping: 30, stiffness: 500, mass: 0.1 }}
       />
-    </>
+    </div>
   );
 };
 

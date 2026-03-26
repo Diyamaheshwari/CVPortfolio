@@ -162,7 +162,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" ref={containerRef} className="py-24 lg:py-56 bg-[#020202] relative overflow-hidden">
+    <section id="contact" ref={containerRef} className="py-24 lg:py-56 bg-transparent relative overflow-hidden">
       {/* Neural Surface Grid */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
            style={{ backgroundImage: 'radial-gradient(white 1px, transparent 1px)', backgroundSize: '60px 60px' }} />

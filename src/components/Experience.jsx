@@ -187,7 +187,7 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" ref={containerRef} className="py-24 lg:py-48 bg-[#020202] relative overflow-hidden">
+    <section id="experience" ref={containerRef} className="py-24 lg:py-48 bg-transparent relative overflow-hidden">
       {/* Background Neural Grid */}
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none" 
            style={{ backgroundImage: 'radial-gradient(#ff007f 1px, transparent 1px)', backgroundSize: '60px 60px' }} />

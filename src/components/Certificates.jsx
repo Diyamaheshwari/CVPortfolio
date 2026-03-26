@@ -9,28 +9,32 @@ const Certificates = () => {
       issuer: "Udemy",
       date: "2025",
       icon: <Award className="text-primary" size={24} />,
-      <a href= "https://drive.google.com/file/d/1f1M0HR1Su_SkZETr_in7-9sKctnDJXLI/view?usp=sharing" >status: "Verified"</a>
+      link: "https://drive.google.com/file/d/1f1M0HR1Su_SkZETr_in7-9sKctnDJXLI/view?usp=sharing",
+      status: "Verified"
     },
     {
       title: "Mastering JAVA for Application Development",
       issuer: "LPU",
       date: "2025",
       icon: <Star className="text-primary" size={24} />,
-      <a href= "https://drive.google.com/file/d/1hEAVkWPr6uizFDtZ4t6-7NkBpU52bb1v/view?usp=sharing" >status: "Verified"</a>
+      link: "https://drive.google.com/file/d/1hEAVkWPr6uizFDtZ4t6-7NkBpU52bb1v/view?usp=sharing",
+      status: "Verified"
     },
     {
       title: "MongoDB Professional",
       issuer: "MongoDB University",
       date: "2025",
       icon: <CheckCircle className="text-primary" size={24} />,
-      <a href= "https://drive.google.com/file/d/10tozF34Aj6JbeGbNNYoFqSZczsu_QVki/view?usp=sharing" >status: "Verified"</a>
+      link: "https://drive.google.com/file/d/10tozF34Aj6JbeGbNNYoFqSZczsu_QVki/view?usp=sharing",
+      status: "Verified"
     },
     {
       title: "NPTEL - Software Testing",
       issuer: "IIT Madras / NPTEL",
       date: "2025",
       icon: <Ship className="text-primary" size={24} />,
-      <a href= "https://drive.google.com/file/d/11LtjFZPFrqYG0K-mcEVtoDeACu0oCOVU/view?usp=sharing" >status: "Verified"</a>
+      link: "https://drive.google.com/file/d/11LtjFZPFrqYG0K-mcEVtoDeACu0oCOVU/view?usp=sharing",
+      status: "Verified"
     }
   ];
 
@@ -48,7 +52,7 @@ const Certificates = () => {
   };
 
   return (
-    <section id="certificates" className="py-16 lg:py-32 bg-secondary/5 relative overflow-hidden">
+    <section id="certificates" className="py-16 lg:py-32 bg-transparent relative overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -113,12 +117,15 @@ const Certificates = () => {
                 </div>
               </div>
 
-              <motion.button
+              <motion.a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ x: 5 }}
                 className="flex items-center gap-2 text-primary text-xs font-bold tracking-widest uppercase group/btn"
               >
                 Verify Certificate <ExternalLink size={14} className="group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
-              </motion.button>
+              </motion.a>
             </motion.div>
           ))}
         </motion.div>

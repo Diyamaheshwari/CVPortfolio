@@ -181,7 +181,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" ref={containerRef} className="py-28 lg:py-56 bg-[#030303] relative overflow-hidden">
+    <section id="projects" ref={containerRef} className="py-28 lg:py-56 bg-transparent relative overflow-hidden">
       {/* Background: Digital Wind */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,0,127,0.02),transparent_70%)]" />

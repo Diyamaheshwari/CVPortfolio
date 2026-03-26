@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#020202] py-24 border-t border-white/5 relative overflow-hidden">
+    <footer className="bg-transparent py-24 border-t border-white/5 relative overflow-hidden">
       {/* Background Atmosphere */}
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none" 
            style={{ backgroundImage: 'radial-gradient(white 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="flex bg-white/[0.02] pink-border p-2 rounded-3xl gap-4">
             {[
               { Icon: Github, url: "https://github.com/Diyamaheshwari", label: "Source" },
-              { Icon: Linkedin, url: "https://linkedin.com/in/diyamaheshwari", label: "Sync" },
+              { Icon: Linkedin, url: "https://www.linkedin.com/in/diyamaheshwari", label: "Sync" },
               { Icon: Mail, url: "mailto:maheshwaridiya6@gmail.com", label: "Comm" }
             ].map((social, i) => (
               <motion.a 

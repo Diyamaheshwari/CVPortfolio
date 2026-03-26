@@ -174,7 +174,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-24 lg:py-40 bg-[#020202] relative overflow-hidden">
+    <section id="skills" className="py-24 lg:py-40 bg-transparent relative overflow-hidden">
       {/* Neural Background Grid */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
            style={{ backgroundImage: 'radial-gradient(#ff007f 1px, transparent 1px)', backgroundSize: '40px 40px' }} />

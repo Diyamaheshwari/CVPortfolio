@@ -61,7 +61,7 @@ const About = () => {
       id="about" 
       ref={scrollRef}
       onMouseMove={handleMouseMove}
-      className="py-20 lg:py-32 relative overflow-hidden bg-[#030303]"
+      className="py-20 lg:py-32 relative overflow-hidden bg-transparent"
     >
       <AboutBackground blobX={blobX} blobY={blobY} />
       
@@ -208,7 +208,12 @@ const AboutBackground = ({ blobX, blobY }) => (
       style={{ x: blobX, y: blobY }}
       className="absolute bottom-1/4 right-0 w-[500px] h-[500px] bg-purple-600/5 rounded-full blur-[120px] mix-blend-screen"
     />
-    <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.02] contrast-125 pointer-events-none" />
+    <div 
+      className="absolute inset-0 opacity-[0.03] contrast-125 pointer-events-none" 
+      style={{ 
+        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")` 
+      }} 
+    />
     <svg className="absolute inset-0 w-full h-full opacity-[0.03] pointer-events-none">
       <pattern id="grid-about" width="40" height="40" patternUnits="userSpaceOnUse">
         <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" strokeWidth="0.5"/>
