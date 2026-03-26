@@ -21,14 +21,14 @@ const Certificates = () => {
     {
       title: "MongoDB Professional",
       issuer: "MongoDB University",
-      date: "2024",
+      date: "2025",
       icon: <CheckCircle className="text-primary" size={24} />,
       <a href= "https://drive.google.com/file/d/10tozF34Aj6JbeGbNNYoFqSZczsu_QVki/view?usp=sharing" >status: "Verified"</a>
     },
     {
       title: "NPTEL - Software Testing",
       issuer: "IIT Madras / NPTEL",
-      date: "2024",
+      date: "2025",
       icon: <Ship className="text-primary" size={24} />,
       <a href= "https://drive.google.com/file/d/11LtjFZPFrqYG0K-mcEVtoDeACu0oCOVU/view?usp=sharing" >status: "Verified"</a>
     }
