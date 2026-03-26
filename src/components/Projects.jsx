@@ -154,32 +154,28 @@ const Projects = () => {
       title: "Video2Summary",
       description: "Neural architecture processing large-scale video streams into condensed semantic blueprints using OpenAI & Whisper API interfaces.",
       tech: ["React.js", "Node.js", "GenAI", "Whisper"],
-      github: "https://github.com/Diyamaheshwari",
-      live: "#",
+      github: "https://github.com/Diyamaheshwari/Video2Summary",
       icon: <Cpu size={28} />
     },
     {
       title: "PulsePoint",
       description: "Real-time global data aggregator employing headless scraping protocols and sentiment analysis for high-fidelity news extraction.",
       tech: ["Node.js", "Express", "Puppeteer", "NLP"],
-      github: "https://github.com/Diyamaheshwari",
-      live: "#",
+      github: "https://github.com/Diyamaheshwari/PulsePoint-Real-Time-News-Aggregator-Web-App-",
       icon: <Radio size={28} />
     },
     {
       title: "LyricAI",
       description: "Music companion application decrypting sonic depth through real-time lyric translations and sentiment-driven recommendation engines.",
       tech: ["React Native", "Firebase", "GPT-4"],
-      github: "https://github.com/Diyamaheshwari",
-      live: "#",
+      github: "https://github.com/Diyamaheshwari/AI-Personalized-Lyrics-Generator",
       icon: <Layers size={28} />
     },
     {
       title: "Car-Racing Game",
       description: "High-performance physics engine simulation utilizing Canvas API for low-latency browser-based competitive interaction.",
       tech: ["JavaScript", "Canvas API", "AudioContext"],
-      github: "https://github.com/Diyamaheshwari",
-      live: "#",
+      github: "https://github.com/Diyamaheshwari/Simple-Car-Racing-Game",
       icon: <Code2 size={28} />
     }
   ];
