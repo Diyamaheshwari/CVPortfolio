@@ -299,7 +299,7 @@ const Hero = () => {
             <motion.div variants={itemVariants} className="flex justify-center lg:justify-start items-center gap-5 sm:gap-6 pt-6 pb-12 lg:pb-0 z-20 relative">
               {[
                 { Icon: Github, url: "https://github.com/Diyamaheshwari" },
-                { Icon: Linkedin, url: "https://linkedin.com/in/diyamaheshwari" },
+                { Icon: Linkedin, url: "www.linkedin.com/in/diyamaheshwari" },
                 { Icon: Mail, url: "mailto:maheshwaridiya6@gmail.com" }
               ].map((social, i) => (
                 <MagneticWrapper key={i} strength={0.6}>
