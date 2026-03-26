@@ -133,7 +133,7 @@ const ArtifactContainer = ({ project, index }) => {
                 target="_blank"
                 className="flex items-center gap-2.5 text-xs font-bold font-mono uppercase tracking-[0.3em] text-gray-600 hover:text-primary transition-all group/link"
               >
-                <Globe size={16} /> <span>Live_Port</span>
+                
               </motion.a>
             </div>
           </div>
